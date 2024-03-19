@@ -1,4 +1,4 @@
-mens_win_probs = {
+win_probs = {
     0: .50,
     1: .54,
     2: .58,
