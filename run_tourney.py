@@ -1,4 +1,5 @@
-from mens import mens_prototype as mp
+from libraries import mens_prototype as mp
+from libraries import win_probabilities as wp
 
 houston = mp.Team('Houston', 'South', 1)
 marquette = mp.Team('Marquette', 'South', 2)
@@ -20,10 +21,8 @@ test_bracket = [
     nebraska
 ]
 
-print(mp.setMatchups(test_bracket))
+print(mp.set_matchups(test_bracket))
 
-def set_matchups(teams):
-    pass
 
 def play_tourney(matchups):
     pass

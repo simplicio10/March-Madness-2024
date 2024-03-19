@@ -18,7 +18,7 @@ class Team:
     def createBracket(self):
         pass
 
-def setMatchups(teams):
+def set_matchups(teams):
         num_teams = [2, 4, 8, 16]
         if len(teams) not in num_teams:
             raise ValueError('Not the correct number of teams.\
@@ -37,3 +37,6 @@ def setMatchups(teams):
                 bottom_half.pop()
                 count += 1
             return games
+
+def play_tourney(teams):
+    
